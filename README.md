@@ -9,9 +9,9 @@ Automatically extracts text from uploaded PDFs using AWS serverless architecture
 4. **DynamoDB**: Stores extracted text with timestamps  
 
 ## Screenshots  
-![Lambda Processing Logs](images/Lambda Logs.png)  
-![DynamoDB Extracted Data](images/DynamoDB Table.png)  
-![S3 Bucket with PDFs](images/S3 Bucket.png)  
+![Lambda Processing Logs](images/lambda-logs.png)  
+![DynamoDB Extracted Data](images/dynamodb-results.png)  
+![S3 Bucket with PDFs](images/s3-bucket.png)  
 
 ## Technical Skills  
 - **AWS Services**: Lambda, S3, Textract, DynamoDB  
