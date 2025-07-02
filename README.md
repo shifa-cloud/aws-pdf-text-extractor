@@ -36,4 +36,7 @@ Automatically extracts text from uploaded PDFs using AWS serverless architecture
 ## Key Learnings  
 - Serverless event-driven architectures  
 - AWS service integration (Lambda, Textract)  
-- Cloud cost optimization  
+- Cloud cost optimization
+
+## Nederlandse Samenvatting  
+Dit project automatiseert tekstherkenning van PDFs met AWS serverless diensten.  
