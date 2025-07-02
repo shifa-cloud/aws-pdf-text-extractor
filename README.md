@@ -8,6 +8,12 @@ Automatically extracts text from uploaded PDFs using AWS serverless architecture
 3. **Textract**: AWS AI service extracts text  
 4. **DynamoDB**: Stores extracted text with timestamps  
 
+## How to Deploy
+1. Create S3 bucket: `yourname-file-upload`
+2. Create Lambda with Python 3.9
+3. Attach IAM roles for Textract/DynamoDB access
+4. Set up S3 event trigger
+
 ## Screenshots  
 ![Lambda Processing Logs](images/lambda-logs.png)  
 ![DynamoDB Extracted Data](images/dynamodb-results.png)  
