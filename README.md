@@ -22,7 +22,7 @@ Automatically extracts text from uploaded PDFs using AWS serverless architecture
 ## Technical Skills  
 - **AWS Services**: Lambda, S3, Textract, DynamoDB  
 - **Python**: Boto3 for AWS integration  
-- **Serverless Design**: Zero infrastructure management  
+- **Serverless Design**: Zero infrastructure management
 
 ## Notes  
 - Project resources deleted post-demo to optimize costs.  
@@ -38,5 +38,11 @@ Automatically extracts text from uploaded PDFs using AWS serverless architecture
 - AWS service integration (Lambda, Textract)  
 - Cloud cost optimization
 
+## GDPR Considerations
+- Auto-deletion policies (`force_destroy = true`)  
+- No personal data processed  
+- Resources destroyed post-demo  
+
 ## Nederlandse Samenvatting  
 Dit project automatiseert tekstherkenning van PDFs met AWS serverless diensten.  
+
